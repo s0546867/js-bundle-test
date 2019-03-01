@@ -1,0 +1,13 @@
+{
+	"name": "camilo-tonal-example",
+	"version": "1.0.0",
+	"devDependencies": {
+		"max-js-bundler": "^1.0.2"
+	},
+	"dependencies": {
+		"tonal": "^2.2.1"
+	},
+	"scripts": {
+		"build": "max-js-bundler build ./camilo.tonal.js --output camilo.tonal.build.js --force"
+	}
+}
